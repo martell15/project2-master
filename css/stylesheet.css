@@ -1,0 +1,89 @@
+#header{
+	height:50px;
+	width:800px;
+	background-color:grey;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#navbar{
+	height:50px;
+	width:800px;
+	background-color:grey;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#navbar ul li a{ 
+	text-decoration:  none;
+}
+
+
+
+#footer{
+	height:50px;
+	width:800px;
+	background-color:grey;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#aside{
+	height:100%;
+	width:30%;
+	background-color:blue;
+	text-align: center;
+	border-radius: 10px;
+
+}
+.article{
+	height:100%;
+	width:70%;
+	text-align: center;
+	background-color:red;
+	border-radius: 10px;
+
+}
+.section{
+	height:100%;
+	width:50%;
+	text-align: center;
+	background-color:green;
+	border-radius: 10px;	
+}
+
+#content{
+	height:200px;
+	width:800px;
+	text-align: center;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+.clear_both{
+	clear:both;
+}
+
+div{
+	margin-bottom:10px;
+}
+
+/*
+un comment this to center stuff on the page
+*/
+html{
+	display: table;
+	margin:auto;
+}
+
+body{
+	display: table-cell;
+	vertical-align: middle;
+}
+
